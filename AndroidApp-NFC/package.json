@@ -1,0 +1,34 @@
+{
+    "name": "com.company.nfc4",
+    "displayName": "NFC4",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^7.1.4",
+        "cordova-android-support-gradle-release": "^2.0.1",
+        "cordova-browser": "^5.0.4",
+        "cordova-plugin-mqtt": "^0.3.8",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "phonegap-nfc": "git+https://github.com/chariotsolutions/phonegap-nfc.git"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "phonegap-nfc": {},
+            "cordova-android-support-gradle-release": {
+                "ANDROID_SUPPORT_VERSION": "25.+"
+            },
+            "cordova-plugin-mqtt": {}
+        },
+        "platforms": [
+            "android",
+            "browser"
+        ]
+    }
+}

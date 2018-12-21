@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.company.nfc4"
+    },
+    "phonegap-nfc": {
+      "PACKAGE_NAME": "com.company.nfc4"
+    },
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "27.+",
+      "PACKAGE_NAME": "com.company.nfc4"
+    },
+    "cordova-plugin-mqtt": {
+      "PACKAGE_NAME": "com.company.nfc4"
+    }
+  },
+  "dependent_plugins": {}
+}
